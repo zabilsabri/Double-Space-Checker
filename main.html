@@ -15,6 +15,7 @@
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
+    <script src="backend.js"></script>
 </head>
 
 <body>
@@ -25,13 +26,25 @@
             </div>
         </div>
     </nav>
-        <div class="textareaParagraph">
-            <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="textParagraph"
-                    style="height: 500px"></textarea>
-                <label for="floatingTextarea2">Insert Your Paragraph Here</label>
+    <div class="textareaParagraph">
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="textParagraph"
+                style="height: 300px"></textarea>
+            <label for="floatingTextarea2">INSERT YOUR PARAGRAPH HERE</label>
+        </div>
+    </div>
+    <div class="confirmButton">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary" type="button" onclick="spaceCheck()">CHECK</button>
+        </div>
+    </div>
+    <div class="cardCheck">
+        <div class="card">
+            <div class="card-body">
+                <p id="result"></p>
             </div>
         </div>
+    </div>
 </body>
 
 </html>

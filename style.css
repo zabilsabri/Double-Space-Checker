@@ -4,4 +4,11 @@
     padding-top: 2cm;
     padding-bottom: 2cm;
 }
-
+.confirmButton {
+    padding-right: 1cm;
+    padding-bottom: 1cm;
+}
+.cardCheck {
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
